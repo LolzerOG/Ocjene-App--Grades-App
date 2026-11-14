@@ -12,13 +12,11 @@ Built as a single-page web app (HTML/CSS/JS) and packaged for Android with
 
 ## Screenshots
 
-<!-- Add 2-3 phone screenshots to docs/ and uncomment:
 <p>
-  <img src="screenshot-main.png" width="240">
-  <img src="screenshot-goal.png" width="240">
-  <img src="screenshot-settings.png" width="240">
+    <img src="screenshot-main.png" width="240">
+    <img src="screenshot-goal.png" width="240">
+    <img src="screenshot-settings.png" width="240">
 </p>
--->
 
 ## Features
 
