@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ocjene</string>
+    <string name="title_activity_main">Ocjene</string>
+    <string name="package_name">com.fatih.ocjene</string>
+    <string name="custom_url_scheme">com.fatih.ocjene</string>
+</resources>
