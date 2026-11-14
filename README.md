@@ -5,7 +5,6 @@ finding out **which grades you still need** to reach a target average.
 Built as a single-page web app (HTML/CSS/JS) and packaged for Android with
 [Capacitor](https://capacitorjs.com/).
 
-> **Bosanski (kratko):** Ocjene je aplikacija za praćenje ocjena po predmetima i
 > polugodištima, s izračunom prosjeka i potrebnih ocjena za željeni cilj.
 > Radi bez interneta, podaci ostaju na telefonu. Aplikacija ima bosanski i engleski jezik.
 
