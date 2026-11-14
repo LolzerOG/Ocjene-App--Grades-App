@@ -80,29 +80,6 @@ npx cap open android     # then Run in Android Studio
 The whole app lives in [`www/index.html`](www/index.html). After editing it, run
 `npx cap sync android` again.
 
-## Releasing a new version
-
-The workflow in `.github/workflows/release.yml` builds and signs the APK.
-
-One-time setup: add these **repository secrets** (Settings → Secrets and variables → Actions):
-
-| Secret              | Value                                              |
-| ------------------- | -------------------------------------------------- |
-| `KEYSTORE_BASE64`   | your `.jks` keystore, base64-encoded               |
-| `KEYSTORE_PASSWORD` | keystore password                                  |
-| `KEY_ALIAS`         | key alias used when the keystore was created       |
-| `KEY_PASSWORD`      | key password                                       |
-
-Then, for every release:
-
-```bash
-git tag v1.0.0
-git push origin v1.0.0
-```
-
-The APK appears under **Releases** a few minutes later. The same keystore must be used for every
-version, otherwise Android will not install an update over the old app.
-
 ## Project structure
 
 ```
@@ -111,12 +88,6 @@ android/                  Capacitor Android project
 capacitor.config.*        app id (com.fatih.ocjene) and web directory
 .github/workflows/        APK build and release workflow
 ```
-
-## AI assistance
-
-*(Edit or remove this section according to your course rules.)*
-Parts of this app were developed with the help of an AI assistant (Claude by Anthropic).
-The code was reviewed and tested by the author.
 
 ## License
 
